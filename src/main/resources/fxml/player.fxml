@@ -70,7 +70,7 @@
                               <Insets right="5.0" />
                            </HBox.margin>
                         </Label>
-                        <Slider fx:id="volumeSlider" value="25.0" />
+                        <Slider fx:id="volumeSlider" blockIncrement="0.01" max="1.0" value="25.0" />
                      </children>
                   </HBox>
                </right>

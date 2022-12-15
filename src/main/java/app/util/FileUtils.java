@@ -18,7 +18,7 @@ import java.util.stream.Stream;
 @UtilityClass
 public class FileUtils {
 
-    private static final String DATA = System.getenv("APPDATA") + "\\cs490\\paths.txt";
+    private static final String DATA = System.getProperty("user.home") + "\\CS490\\music_player\\paths.txt";
 
     /**
      * Gets the file name with no extension.
